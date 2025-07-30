@@ -1,0 +1,78 @@
+body{
+    background-image: url(image/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.container{
+  background-image: url(image/container.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 5px #C19A6B solid;
+  border-radius: 30px;
+}
+.container:hover{
+  background-image: url(image/hover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#icon{
+    color: #B87333;
+    font-weight: 900;
+    font-size: 32px;
+}
+.nav-link{
+  color:white;
+}
+.nav-link:hover{
+  color: #F5F5DC;
+text-decoration: underline #6E5849;
+
+}
+#btn{
+    background-color: 	#46bb31;
+    color: Charcoal;
+      border: 2px #39FF14 solid;
+  border-radius: 7px;
+}
+#btn:hover{
+    background-image: url(image/coffee.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:white;
+}
+#para{
+  color:white;
+  margin-top: 180px;
+  font-family: 'Poppins';
+  width: 41%;
+  font-size: 32px;
+  font-weight: 600;
+}
+#tag{
+  font-family: 'Great Vibes';
+  width: 41%;
+  font-size: 32px;
+  color: white;
+}
+#head{
+  color:white;
+  width: 40%;
+   font-family: 'Poppins';
+}
+#visit{
+  color:#F5F5DC;
+  background-color:#D2691E;
+  border: 2px #D2691E solid;
+  border-radius: 7px;
+  width: 20%;
+}
+#visit:hover{
+background-color:#C19A6B ; 
+  color:#2D2D2D;
+}
